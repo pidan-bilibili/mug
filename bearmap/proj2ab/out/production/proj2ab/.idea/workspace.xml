@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:skeleton" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="dedde665-6123-45c3-864e-5222d98c27a6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../lab6/UnionFind.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab6/UnionFind.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bearmaps/ArrayHeapMinPQ.java" beforeDir="false" afterPath="$PROJECT_DIR$/bearmaps/ArrayHeapMinPQ.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bearmaps/KDTree.java" beforeDir="false" afterPath="$PROJECT_DIR$/bearmaps/KDTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bearmaps/KDTreeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/bearmaps/KDTreeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bearmaps/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/bearmaps/Point.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="Interface" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1iqaErv1WtqVcSVD2VPFMia4bSk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="JUnit.KDTreeTest">
+    <configuration name="ArrayHeapMinPQ" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.ArrayHeapMinPQ" />
+      <module name="proj2ab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTree" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTree" />
+      <module name="proj2ab" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTreeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-XX:+ShowCodeDetailsInExceptionMessages " />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTreeTest.testNearest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="testNearest" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:+ShowCodeDetailsInExceptionMessages " />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KDTreeTest.testWindow" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj2ab" />
+      <useClassPathOnly />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="bearmaps.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="bearmaps" />
+      <option name="MAIN_CLASS_NAME" value="bearmaps.KDTreeTest" />
+      <option name="METHOD_NAME" value="testWindow" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-XX:+ShowCodeDetailsInExceptionMessages " />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <useClassPathOnly />
+      <option name="MAIN_CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-XX:+ShowCodeDetailsInExceptionMessages " />
+      <option name="PARAMETERS" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KDTreeTest" />
+        <item itemvalue="JUnit.KDTreeTest.testWindow" />
+        <item itemvalue="JUnit.KDTreeTest.testNearest" />
+        <item itemvalue="Application.KDTree" />
+        <item itemvalue="Application.ArrayHeapMinPQ" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="dedde665-6123-45c3-864e-5222d98c27a6" name="Default Changelist" comment="" />
+      <created>1602637468688</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1602637468688</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="566" y="356" key="#Notifications" timestamp="1603020363857">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="566" y="356" key="#Notifications/0.0.1680.1050@0.0.1680.1050" timestamp="1603020363857" />
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1603414868803">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="653" y="248" key="#com.intellij.ide.util.MemberChooser/0.0.1680.1050@0.0.1680.1050" timestamp="1603414868803" />
+    <state x="610" y="426" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1603414315816">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="610" y="426" width="460" height="205" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1680.1050@0.0.1680.1050" timestamp="1603414315816" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom" timestamp="1604043150357">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="235" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604043100831" />
+    <state width="1638" height="357" key="GridCell.Tab.0.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150357" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center" timestamp="1604043150356">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="235" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604043100829" />
+    <state width="1638" height="357" key="GridCell.Tab.0.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150356" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left" timestamp="1604043150356">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="235" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604043100827" />
+    <state width="1638" height="357" key="GridCell.Tab.0.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150356" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right" timestamp="1604043150357">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="235" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604043100830" />
+    <state width="1638" height="357" key="GridCell.Tab.0.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150357" />
+    <state width="1638" height="357" key="GridCell.Tab.1.bottom" timestamp="1604043150361">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097209" />
+    <state width="1638" height="357" key="GridCell.Tab.1.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150361" />
+    <state width="1638" height="357" key="GridCell.Tab.1.center" timestamp="1604043150361">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097208" />
+    <state width="1638" height="357" key="GridCell.Tab.1.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150361" />
+    <state width="1638" height="357" key="GridCell.Tab.1.left" timestamp="1604043150360">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097207" />
+    <state width="1638" height="357" key="GridCell.Tab.1.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150360" />
+    <state width="1638" height="357" key="GridCell.Tab.1.right" timestamp="1604043150361">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097208" />
+    <state width="1638" height="357" key="GridCell.Tab.1.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150361" />
+    <state width="1638" height="357" key="GridCell.Tab.2.bottom" timestamp="1604043150358">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.2.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097200" />
+    <state width="1638" height="357" key="GridCell.Tab.2.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150358" />
+    <state width="1638" height="357" key="GridCell.Tab.2.center" timestamp="1604043150358">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.2.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097199" />
+    <state width="1638" height="357" key="GridCell.Tab.2.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150358" />
+    <state width="1638" height="357" key="GridCell.Tab.2.left" timestamp="1604043150357">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.2.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097198" />
+    <state width="1638" height="357" key="GridCell.Tab.2.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150357" />
+    <state width="1638" height="357" key="GridCell.Tab.2.right" timestamp="1604043150358">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.2.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097200" />
+    <state width="1638" height="357" key="GridCell.Tab.2.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150358" />
+    <state width="1638" height="357" key="GridCell.Tab.3.bottom" timestamp="1604043150360">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.3.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097203" />
+    <state width="1638" height="357" key="GridCell.Tab.3.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150360" />
+    <state width="1638" height="357" key="GridCell.Tab.3.center" timestamp="1604043150359">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.3.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097202" />
+    <state width="1638" height="357" key="GridCell.Tab.3.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150359" />
+    <state width="1638" height="357" key="GridCell.Tab.3.left" timestamp="1604043150359">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.3.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097201" />
+    <state width="1638" height="357" key="GridCell.Tab.3.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150359" />
+    <state width="1638" height="357" key="GridCell.Tab.3.right" timestamp="1604043150359">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.3.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097203" />
+    <state width="1638" height="357" key="GridCell.Tab.3.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150359" />
+    <state width="1638" height="357" key="GridCell.Tab.4.bottom" timestamp="1604043150360">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.4.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097206" />
+    <state width="1638" height="357" key="GridCell.Tab.4.bottom/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150360" />
+    <state width="1638" height="357" key="GridCell.Tab.4.center" timestamp="1604043150360">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.4.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097205" />
+    <state width="1638" height="357" key="GridCell.Tab.4.center/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150360" />
+    <state width="1638" height="357" key="GridCell.Tab.4.left" timestamp="1604043150360">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.4.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097204" />
+    <state width="1638" height="357" key="GridCell.Tab.4.left/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150360" />
+    <state width="1638" height="357" key="GridCell.Tab.4.right" timestamp="1604043150360">
+      <screen x="0" y="23" width="1680" height="1027" />
+    </state>
+    <state width="1638" height="357" key="GridCell.Tab.4.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604043097205" />
+    <state width="1638" height="357" key="GridCell.Tab.4.right/0.23.1680.1027@0.23.1680.1027" timestamp="1604043150360" />
+    <state x="341" y="164" key="SettingsEditor" timestamp="1602818025792">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="341" y="164" key="SettingsEditor/0.0.1680.1050@0.0.1680.1050" timestamp="1602818025792" />
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1603628106985">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1603628106985" />
+  </component>
+</project>
