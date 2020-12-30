@@ -44,6 +44,7 @@ public class World {
     private final ArrayList<Position> hallways;
     private final ArrayList<Position> portal;
     private Position end;
+    private ArrayList<Position> code;
 
 
     /** create whole world with random room and Hallway. */
@@ -132,6 +133,8 @@ public class World {
         // form end.
         formEnd();
 
+        // form secrete code
+        formSecretCode();
     }
 
     /** return TETile[][]. */
@@ -408,7 +411,7 @@ public class World {
 
     }
 
-    /** form end */
+    /** form grass */
     private Position formEnd() {
         int xPos = RandomUtils.uniform(RANDOM, 1, 77);
         int yPos = RandomUtils.uniform(RANDOM, 2, 48);
@@ -421,6 +424,32 @@ public class World {
         } else {
             return formEnd();
         }
+    }
+
+    /** generate a random position */
+    private List<Position> formSecretCode() {
+        int xPos = RandomUtils.uniform(RANDOM, 1, 77);
+        int yPos = RandomUtils.uniform(RANDOM, 2, 48);
+
+        code = new ArrayList<>();
+        code.add( new Position(xPos, yPos));
+
+        int n = 0;
+        while (n < 4) {
+            if (world[xPos + n][yPos] != Tileset.NOTHING) {
+                return formSecretCode();
+            }
+            code.add(new Position(xPos + n, yPos));
+            n += 1;
+        }
+
+        world[code.get(1).getX()][code.get(1).getY()] = Tileset.M;
+        world[code.get(2).getX()][code.get(1).getY()] = Tileset.O;
+        world[code.get(3).getX()][code.get(1).getY()] = Tileset.R;
+        world[code.get(4).getX()][code.get(1).getY()] = Tileset.E;
+
+
+        return code;
     }
 
     /** get the player position */
@@ -438,7 +467,7 @@ public class World {
         return portal;
     }
 
-    /** get end */
+    /** get grass */
     public Position getEnd() {
         return end;
     }

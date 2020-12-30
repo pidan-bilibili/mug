@@ -321,6 +321,7 @@ public class Engine {
 
         ter.renderFrame(world);
         StdDraw.setPenColor(Color.white);
+
         if (language) {
             StdDraw.text(10, HEIGHT + 1, "number of flower: " + numOfFlower);
         } else {
@@ -360,7 +361,6 @@ public class Engine {
         }
 
         if (world[x][y] == Tileset.NOTHING) {
-            StdDraw.setPenColor(Color.white);
             if (language) {
                 StdDraw.text(WIDTH - 20, HEIGHT + 1, "nothing is here");
             } else {
@@ -369,11 +369,18 @@ public class Engine {
         }
 
         if (world[x][y] == Tileset.LOCKED_DOOR) {
-            StdDraw.setPenColor(Color.white);
             if (language) {
                 StdDraw.text(WIDTH - 20, HEIGHT + 1, "this is portal");
             } else {
                 StdDraw.text(WIDTH - 20, HEIGHT + 1, "这是传送门");
+            }
+        }
+
+        if (world[x][y] == Tileset.GRASS) {
+            if (language) {
+                StdDraw.text(WIDTH - 20, HEIGHT + 1, "this is a trap");
+            } else {
+                StdDraw.text(WIDTH - 20, HEIGHT + 1, "走进来试试，嘿嘿");
             }
         }
 
