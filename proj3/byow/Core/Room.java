@@ -108,9 +108,5 @@ public class Room {
     public Position getHallway() {
         return hallway;
     }
-
-
-
-
 }
 
