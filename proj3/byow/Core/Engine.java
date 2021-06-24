@@ -820,7 +820,7 @@ public class Engine {
 
         if (language) {
             StdDraw.text(WIDTH / 2.0, HEIGHT * 3.0 / 4.0, "You need to answer the " +
-                    "following question in order to do win the game");
+                    "following question in order to do win");
             StdDraw.text(WIDTH / 2.0, HEIGHT * 2.0 / 4.0, "Press c to clean your answer");
             StdDraw.text(WIDTH / 2.0, HEIGHT * 1.0 / 4.0, "Question： " + question);
             StdDraw.text(WIDTH / 2.0, HEIGHT * 1.0 / 5.0, "Answer： " + answer);
@@ -930,7 +930,7 @@ public class Engine {
         }
     }
 
-    /** load the seed */
+    /** load seed */
     private long loadSeed() {
         File file = new File("seed.txt");
 
@@ -951,7 +951,7 @@ public class Engine {
         return seed;
     }
 
-    /** load the setps */
+    /** load setps */
     private ArrayList<String> loadSteps() {
         File file = new File("steps.txt");
 
